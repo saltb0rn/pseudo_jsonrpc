@@ -15,7 +15,7 @@ setuptools.setup(
     url="http://github.com/saltb0rn/pseudo_jsonrpc",
     packages=setuptools.find_packages(),
     classifiers=(
-        "Programming Language :: Python ::3",
+        "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ),
 )
