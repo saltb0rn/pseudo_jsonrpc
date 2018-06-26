@@ -24,6 +24,7 @@ if __name__ == '__main__':
 	def sub(a, b):
 		return a - b
 
+	# create an instace and redirect the log to file "log.txt"
 	server = JSONRPCServer(("", 12321), "log.txt")
 	# register procedures to be provided
 	server.register(add)
